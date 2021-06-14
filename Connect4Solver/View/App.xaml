@@ -1,0 +1,18 @@
+﻿<Application x:Class="Connect4Solver.View.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Connect4Solver"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <RadialGradientBrush x:Key="YellowGradient">
+            <GradientStop Color="#FFFFFF56" Offset="0"/>
+            <GradientStop Color="#FFC7B800" Offset="1"/>
+        </RadialGradientBrush>
+        <RadialGradientBrush x:Key="RedGradient">
+            <GradientStop Color="#FFFF5131" Offset="0"/>
+            <GradientStop Color="#FF9B0000" Offset="1"/>
+        </RadialGradientBrush>
+
+    </Application.Resources>
+</Application>
